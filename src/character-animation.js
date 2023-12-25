@@ -1,6 +1,6 @@
 export default function loadAssets() {
-  const spriteAtlas = (image, sprites) => loadSpriteAtlas(`./assets/${image}`, sprites);
-  const sprite = (name, image) => loadSprite(name, `./assets/${image}`);
+  const spriteAtlas = (image, sprites) => loadSpriteAtlas(`Assets/${image}`, sprites);
+  const sprite = (name, image) => loadSprite(name, `Assets/${image}`);
 
   spriteAtlas('characters.png', {
     'player-down': { x: 0, y: 82, width: 16, height: 16 },
